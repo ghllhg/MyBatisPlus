@@ -1,0 +1,7 @@
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@15a34df2 [wrapping: com.mysql.jdbc.JDBC4Connection@5b38c1ec]] will not be managed by Spring
+DEBUG main com.ll.mp.mapper.EmployeeMapper.deleteById - ==>  Preparing: DELETE FROM tbl_employee WHERE id=? 
+DEBUG main com.ll.mp.mapper.EmployeeMapper.deleteById - ==> Parameters: 6(Integer)
+DEBUG main com.ll.mp.mapper.EmployeeMapper.deleteById - <==    Updates: 0
+DEBUG main org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+DEBUG main com.mchange.v2.async.ThreadPoolAsynchronousRunner - com.mchange.v2.async.ThreadPoolAsynchronousRunner@7e5afaa6: Adding task to queue -- com.mchange.v2.resourcepool.BasicResourcePool$1RefurbishCheckinResourceTask@25df00a0
+DEBUG main com.mchange.v2.resourcepool.BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@32b260fa [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@46995c24)
